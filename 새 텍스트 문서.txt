@@ -1,0 +1,6 @@
+import shutil
+
+# KiCad 프로젝트 디렉토리를 ZIP 파일로 압축
+shutil.make_archive(project_dir, 'zip', project_dir)
+
+project_zip_path
